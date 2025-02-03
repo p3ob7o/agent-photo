@@ -1,0 +1,45 @@
+/* Styles for the Agent Photo Gutenberg sidebar and modal */
+.agent-photo-sidebar {
+    padding: 10px;
+}
+
+.agent-photo-modal button {
+    margin: 5px;
+}
+
+.agent-photo-title-modal .components-modal__content {
+    padding: 20px;
+}
+
+.agent-photo-title-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.agent-photo-title-button {
+    padding: 12px !important;
+    height: auto !important;
+    white-space: normal !important;
+    text-align: left !important;
+}
+
+.agent-photo-button.is-busy {
+    cursor: default;
+    opacity: 0.8;
+}
+
+.agent-photo-button .components-spinner {
+    margin: 0;
+}
+
+.agent-photo-button-group {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+.agent-photo-button-group .agent-photo-button {
+    flex: 1;
+    justify-content: center;
+} 
